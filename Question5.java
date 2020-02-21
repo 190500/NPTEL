@@ -1,13 +1,13 @@
 
 import java.util.Scanner;
-class Question5 {  //Define a class Question with two elements e1 and e2.
+class Question {  //Define a class Question with two elements e1 and e2.
   Scanner sc = new Scanner(System.in);
   int e1 = sc.nextInt();  //Read e1
   int e2 = sc.nextInt();  //Read e2
  }
-public class Question{
+public class Question5{
 	// Define static method swap()to swap the values of e1 and e2 of class Question.                                     
-	static void swap(Question5 q){
+	static void swap(Question q){
 
 		int temp;
 		temp = q.e1;
@@ -17,7 +17,7 @@ public class Question{
 }
 public static void main(String[] args) {
 	 //Create an object of class Question
-	   	Question5 t = new Question5();
+	   	Question t = new Question();
 	  //Call the method swap()
 	        swap(t);
 
